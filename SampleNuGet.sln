@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleNuGet", "SampleNuGet\SampleNuGet.csproj", "{EC3DF69A-91BE-47EE-9E50-AD75A988A7D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleNuGet.Tests", "SampleNuGet.Tests\SampleNuGet.Tests.csproj", "{7FDBA0AB-4D33-4785-B4F2-9F3C0927854D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC3DF69A-91BE-47EE-9E50-AD75A988A7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3DF69A-91BE-47EE-9E50-AD75A988A7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3DF69A-91BE-47EE-9E50-AD75A988A7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3DF69A-91BE-47EE-9E50-AD75A988A7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDBA0AB-4D33-4785-B4F2-9F3C0927854D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDBA0AB-4D33-4785-B4F2-9F3C0927854D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDBA0AB-4D33-4785-B4F2-9F3C0927854D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDBA0AB-4D33-4785-B4F2-9F3C0927854D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
