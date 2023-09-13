@@ -7,6 +7,7 @@
         <Nullable>enable</Nullable>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <EnablePackageValidation>true</EnablePackageValidation>
+        <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
 <!--        <PackageValidationBaselineVersion>0.5.0</PackageValidationBaselineVersion>-->
         <Version>0.5.0</Version>
         <IncludeSymbols>true</IncludeSymbols>
@@ -19,7 +20,7 @@
 
         <!-- PackageProjectUrl is different from the repository URL. It can be a documentation
              website or a website explaining the project -->
-        <PackageProjectUrl>https://bitvektor.net</PackageProjectUrl>
+        <PackageProjectUrl>https://www.bitvektor.net</PackageProjectUrl>
 
         <!-- A list of tags to help the search engine to understand the content of the package -->
         <PackageTags>sample, library</PackageTags>
@@ -37,6 +38,14 @@
     <ItemGroup>
         <!-- Add a README.md next to the csproj -->
         <None Include="README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+    <PropertyGroup Label="Package">
+        <PackageIcon>icon.png</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="icon.png" Pack="true" PackagePath="\"/>
     </ItemGroup>
     
     <ItemGroup>
